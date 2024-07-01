@@ -21,6 +21,7 @@
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px */
   --big-font-size: 2rem;
+  --h0-font-size: 1.4rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
@@ -469,6 +470,11 @@ button {
 
 .external-logo {
   width: var(--h1-font-size);
+}
+
+.coding_profiles {
+  color: var(--first-color);
+  width: var(--h0-font-size);
 }
 
 .skills_bar {
